@@ -1,0 +1,13 @@
+error: XDG_RUNTIME_DIR not set in the environment.
+error: XDG_RUNTIME_DIR not set in the environment.
+pygame-ce 2.5.4 (SDL 2.0.14, Python 3.9.2)
+The path /dev/dri/ cannot be opened or is not available
+The path /dev/dri/ cannot be opened or is not available
+The path /dev/dri/ cannot be opened or is not available
+The path /dev/dri/ cannot be opened or is not available
+Traceback (most recent call last):
+  File "/home/captaindeathead/PiDeck/main.py", line 37, in <module>
+    Deck()
+  File "/home/captaindeathead/PiDeck/main.py", line 18, in __init__
+    self.screen = pg.display.set_mode((self.SCREEN_WIDTH, self.SCREEN_HEIGHT), pg.FULLSCREEN)
+pygame.error: No available video device
