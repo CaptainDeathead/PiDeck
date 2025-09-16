@@ -20,7 +20,7 @@ void initSDL(App *app) {
     int rendererFlags, windowFlags;
 
     rendererFlags = SDL_RENDERER_ACCELERATED;
-    windowFlags = 0;
+    windowFlags = SDL_WINDOW_FULLSCREEN;
 
     if (SDL_Init(SDL_INIT_VIDEO) < 0) {
         printf("Couldn't initialise SDL: %s\n", SDL_GetError());
