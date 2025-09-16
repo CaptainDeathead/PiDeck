@@ -1,6 +1,6 @@
 import pygame as pg
 import sys
-import subprocess
+import os
 
 from time import sleep
 
@@ -32,7 +32,8 @@ class Deck:
                     pg.quit()
                     sys.exit(0)
                 elif event.type == pg.KEYDOWN:
-                    subprocess.Popen("./apps/snake/build")
+                    if event.key == pg.K_RETURN:
+                        os.system("./apps/snake/build")
 
             self.weather_app.update()
             
