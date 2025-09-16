@@ -1,0 +1,16 @@
+#ifndef MAIN_H
+#define MAIN_H
+
+#define SCREEN_WIDTH 480 
+#define SCREEN_HEIGHT 320 
+
+#define FPS 60
+
+#define PI 3.1415926535
+
+#define PART_SIZE 20
+#define GAME_WIDTH SCREEN_WIDTH / PART_SIZE
+#define GAME_HEIGHT SCREEN_HEIGHT / PART_SIZE
+
+
+#endif // MAIN_H
