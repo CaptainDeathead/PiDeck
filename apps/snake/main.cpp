@@ -232,6 +232,10 @@ int main() {
                             paused = !paused;
                             lastUpdate = time_ms();
                             break;
+
+                        case SDL_SCANCODE_ESCAPE:
+                            exit(0);
+                            break;
                     }
 
                 default:
